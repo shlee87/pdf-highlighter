@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Seonghoon/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/Users/Seonghoon/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /Users/Seonghoon/Downloads/backup/pdf-highlighter/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/Seonghoon/Downloads/backup/pdf-highlighter',
+6 verbose install   [ '@types/lodash.debounce',
+6 verbose install     '@types/react',
+6 verbose install     '@types/react-dom',
+6 verbose install     'lodash.debounce',
+6 verbose install     'pdfjs-dist',
+6 verbose install     'react-pdf-highlighter',
+6 verbose install     'react-rnd',
+6 verbose install     '@vitejs/plugin-react-refresh',
+6 verbose install     'jest',
+6 verbose install     'jest-puppeteer',
+6 verbose install     'prettier',
+6 verbose install     'puppeteer',
+6 verbose install     'typescript',
+6 verbose install     'vite' ] ]
+7 verbose from cache /Users/Seonghoon/Downloads/backup/pdf-highlighter/package.json
+8 info preinstall react-pdf-highlighter@5.6.0
+9 verbose from cache /Users/Seonghoon/Downloads/backup/pdf-highlighter/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ '@types/lodash.debounce@^4.0.6', null ]
+12 verbose cache add name=undefined spec="@types/lodash.debounce@^4.0.6" args=["@types/lodash.debounce@^4.0.6",null]
+13 verbose parsed url { pathname: '@types/lodash.debounce@^4.0.6',
+13 verbose parsed url   path: '@types/lodash.debounce@^4.0.6',
+13 verbose parsed url   href: '@types/lodash.debounce@^4.0.6' }
+14 verbose cache add name="" spec="types/lodash.debounce@^4.0.6" args=["","types/lodash.debounce@^4.0.6"]
+15 verbose parsed url { pathname: 'types/lodash.debounce@^4.0.6',
+15 verbose parsed url   path: 'types/lodash.debounce@^4.0.6',
+15 verbose parsed url   href: 'types/lodash.debounce@^4.0.6' }
+16 verbose cache add name="types/lodash.debounce" spec="^4.0.6" args=["types/lodash.debounce","^4.0.6"]
+17 verbose parsed url { pathname: '^4.0.6', path: '^4.0.6', href: '^4.0.6' }
+18 verbose addNamed [ 'types/lodash.debounce', '^4.0.6' ]
+19 verbose addNamed [ null, null ]
+20 verbose cache add [ '@types/react@^16.4.0', null ]
+21 verbose cache add name=undefined spec="@types/react@^16.4.0" args=["@types/react@^16.4.0",null]
+22 verbose parsed url { pathname: '@types/react@^16.4.0',
+22 verbose parsed url   path: '@types/react@^16.4.0',
+22 verbose parsed url   href: '@types/react@^16.4.0' }
+23 verbose cache add name="" spec="types/react@^16.4.0" args=["","types/react@^16.4.0"]
+24 verbose parsed url { pathname: 'types/react@^16.4.0',
+24 verbose parsed url   path: 'types/react@^16.4.0',
+24 verbose parsed url   href: 'types/react@^16.4.0' }
+25 verbose cache add name="types/react" spec="^16.4.0" args=["types/react","^16.4.0"]
+26 verbose parsed url { pathname: '^16.4.0', path: '^16.4.0', href: '^16.4.0' }
+27 verbose addNamed [ 'types/react', '^16.4.0' ]
+28 verbose addNamed [ null, null ]
+29 verbose cache add [ '@types/react-dom@^16.4.0', null ]
+30 verbose cache add name=undefined spec="@types/react-dom@^16.4.0" args=["@types/react-dom@^16.4.0",null]
+31 verbose parsed url { pathname: '@types/react-dom@^16.4.0',
+31 verbose parsed url   path: '@types/react-dom@^16.4.0',
+31 verbose parsed url   href: '@types/react-dom@^16.4.0' }
+32 verbose cache add name="" spec="types/react-dom@^16.4.0" args=["","types/react-dom@^16.4.0"]
+33 verbose parsed url { pathname: 'types/react-dom@^16.4.0',
+33 verbose parsed url   path: 'types/react-dom@^16.4.0',
+33 verbose parsed url   href: 'types/react-dom@^16.4.0' }
+34 verbose cache add name="types/react-dom" spec="^16.4.0" args=["types/react-dom","^16.4.0"]
+35 verbose parsed url { pathname: '^16.4.0', path: '^16.4.0', href: '^16.4.0' }
+36 verbose addNamed [ 'types/react-dom', '^16.4.0' ]
+37 verbose addNamed [ null, null ]
+38 verbose cache add [ 'lodash.debounce@^4.0.8', null ]
+39 verbose cache add name=undefined spec="lodash.debounce@^4.0.8" args=["lodash.debounce@^4.0.8",null]
+40 verbose parsed url { pathname: 'lodash.debounce@^4.0.8',
+40 verbose parsed url   path: 'lodash.debounce@^4.0.8',
+40 verbose parsed url   href: 'lodash.debounce@^4.0.8' }
+41 verbose cache add name="lodash.debounce" spec="^4.0.8" args=["lodash.debounce","^4.0.8"]
+42 verbose parsed url { pathname: '^4.0.8', path: '^4.0.8', href: '^4.0.8' }
+43 verbose addNamed [ 'lodash.debounce', '^4.0.8' ]
+44 verbose addNamed [ null, null ]
+45 silly lockFile 492e304c-types-lodash-debounce-4-0-6 types/lodash.debounce@^4.0.6
+46 verbose lock types/lodash.debounce@^4.0.6 /Users/Seonghoon/.npm/492e304c-types-lodash-debounce-4-0-6.lock
+47 silly lockFile eae8b253-types-react-16-4-0 types/react@^16.4.0
+48 verbose lock types/react@^16.4.0 /Users/Seonghoon/.npm/eae8b253-types-react-16-4-0.lock
+49 info addNameTag [ 'types/lodash.debounce', '^4.0.6' ]
+50 silly lockFile 80ceadc8-lodash-debounce-4-0-8 lodash.debounce@^4.0.8
+51 verbose lock lodash.debounce@^4.0.8 /Users/Seonghoon/.npm/80ceadc8-lodash-debounce-4-0-8.lock
+52 info addNameTag [ 'types/react', '^16.4.0' ]
+53 silly lockFile b1021726-types-react-dom-16-4-0 types/react-dom@^16.4.0
+54 verbose lock types/react-dom@^16.4.0 /Users/Seonghoon/.npm/b1021726-types-react-dom-16-4-0.lock
+55 verbose url raw types/lodash.debounce
+56 verbose url resolving [ 'https://registry.npmjs.org/', './types/lodash.debounce' ]
+57 verbose url resolved https://registry.npmjs.org/types/lodash.debounce
+58 info trying registry request attempt 1 at 08:56:49
+59 http GET https://registry.npmjs.org/types/lodash.debounce
+60 info addNameTag [ 'lodash.debounce', '^4.0.8' ]
+61 verbose url raw types/react
+62 verbose url resolving [ 'https://registry.npmjs.org/', './types/react' ]
+63 verbose url resolved https://registry.npmjs.org/types/react
+64 info trying registry request attempt 1 at 08:56:49
+65 http GET https://registry.npmjs.org/types/react
+66 info addNameTag [ 'types/react-dom', '^16.4.0' ]
+67 verbose url raw lodash.debounce
+68 verbose url resolving [ 'https://registry.npmjs.org/', './lodash.debounce' ]
+69 verbose url resolved https://registry.npmjs.org/lodash.debounce
+70 info trying registry request attempt 1 at 08:56:49
+71 http GET https://registry.npmjs.org/lodash.debounce
+72 verbose url raw types/react-dom
+73 verbose url resolving [ 'https://registry.npmjs.org/', './types/react-dom' ]
+74 verbose url resolved https://registry.npmjs.org/types/react-dom
+75 info trying registry request attempt 1 at 08:56:49
+76 http GET https://registry.npmjs.org/types/react-dom
+77 verbose cache add [ 'pdfjs-dist@2.16.105', null ]
+78 verbose cache add name=undefined spec="pdfjs-dist@2.16.105" args=["pdfjs-dist@2.16.105",null]
+79 verbose parsed url { pathname: 'pdfjs-dist@2.16.105',
+79 verbose parsed url   path: 'pdfjs-dist@2.16.105',
+79 verbose parsed url   href: 'pdfjs-dist@2.16.105' }
+80 verbose cache add name="pdfjs-dist" spec="2.16.105" args=["pdfjs-dist","2.16.105"]
+81 verbose parsed url { pathname: '2.16.105', path: '2.16.105', href: '2.16.105' }
+82 verbose addNamed [ 'pdfjs-dist', '2.16.105' ]
+83 verbose addNamed [ '2.16.105', '2.16.105' ]
+84 silly lockFile c5ac964f-pdfjs-dist-2-16-105 pdfjs-dist@2.16.105
+85 verbose lock pdfjs-dist@2.16.105 /Users/Seonghoon/.npm/c5ac964f-pdfjs-dist-2-16-105.lock
+86 verbose cache add [ 'react-pdf-highlighter@^5.6.0', null ]
+87 verbose cache add name=undefined spec="react-pdf-highlighter@^5.6.0" args=["react-pdf-highlighter@^5.6.0",null]
+88 verbose parsed url { pathname: 'react-pdf-highlighter@^5.6.0',
+88 verbose parsed url   path: 'react-pdf-highlighter@^5.6.0',
+88 verbose parsed url   href: 'react-pdf-highlighter@^5.6.0' }
+89 verbose cache add name="react-pdf-highlighter" spec="^5.6.0" args=["react-pdf-highlighter","^5.6.0"]
+90 verbose parsed url { pathname: '^5.6.0', path: '^5.6.0', href: '^5.6.0' }
+91 verbose addNamed [ 'react-pdf-highlighter', '^5.6.0' ]
+92 verbose addNamed [ null, null ]
+93 silly lockFile 96bb6e4e-react-pdf-highlighter-5-6-0 react-pdf-highlighter@^5.6.0
+94 verbose lock react-pdf-highlighter@^5.6.0 /Users/Seonghoon/.npm/96bb6e4e-react-pdf-highlighter-5-6-0.lock
+95 verbose cache add [ 'react-rnd@^10.1.10', null ]
+96 verbose cache add name=undefined spec="react-rnd@^10.1.10" args=["react-rnd@^10.1.10",null]
+97 verbose parsed url { pathname: 'react-rnd@^10.1.10',
+97 verbose parsed url   path: 'react-rnd@^10.1.10',
+97 verbose parsed url   href: 'react-rnd@^10.1.10' }
+98 verbose cache add name="react-rnd" spec="^10.1.10" args=["react-rnd","^10.1.10"]
+99 verbose parsed url { pathname: '^10.1.10', path: '^10.1.10', href: '^10.1.10' }
+100 verbose addNamed [ 'react-rnd', '^10.1.10' ]
+101 verbose addNamed [ null, null ]
+102 silly lockFile 119bb0a9-react-rnd-10-1-10 react-rnd@^10.1.10
+103 verbose lock react-rnd@^10.1.10 /Users/Seonghoon/.npm/119bb0a9-react-rnd-10-1-10.lock
+104 verbose cache add [ '@vitejs/plugin-react-refresh@^1.3.1', null ]
+105 verbose cache add name=undefined spec="@vitejs/plugin-react-refresh@^1.3.1" args=["@vitejs/plugin-react-refresh@^1.3.1",null]
+106 verbose parsed url { pathname: '@vitejs/plugin-react-refresh@^1.3.1',
+106 verbose parsed url   path: '@vitejs/plugin-react-refresh@^1.3.1',
+106 verbose parsed url   href: '@vitejs/plugin-react-refresh@^1.3.1' }
+107 verbose cache add name="" spec="vitejs/plugin-react-refresh@^1.3.1" args=["","vitejs/plugin-react-refresh@^1.3.1"]
+108 verbose parsed url { pathname: 'vitejs/plugin-react-refresh@^1.3.1',
+108 verbose parsed url   path: 'vitejs/plugin-react-refresh@^1.3.1',
+108 verbose parsed url   href: 'vitejs/plugin-react-refresh@^1.3.1' }
+109 verbose cache add name="vitejs/plugin-react-refresh" spec="^1.3.1" args=["vitejs/plugin-react-refresh","^1.3.1"]
+110 verbose parsed url { pathname: '^1.3.1', path: '^1.3.1', href: '^1.3.1' }
+111 verbose addNamed [ 'vitejs/plugin-react-refresh', '^1.3.1' ]
+112 verbose addNamed [ null, null ]
+113 silly lockFile 621b1078-itejs-plugin-react-refresh-1-3-1 vitejs/plugin-react-refresh@^1.3.1
+114 verbose lock vitejs/plugin-react-refresh@^1.3.1 /Users/Seonghoon/.npm/621b1078-itejs-plugin-react-refresh-1-3-1.lock
+115 verbose cache add [ 'jest@^27.1.0', null ]
+116 verbose cache add name=undefined spec="jest@^27.1.0" args=["jest@^27.1.0",null]
+117 verbose parsed url { pathname: 'jest@^27.1.0',
+117 verbose parsed url   path: 'jest@^27.1.0',
+117 verbose parsed url   href: 'jest@^27.1.0' }
+118 verbose cache add name="jest" spec="^27.1.0" args=["jest","^27.1.0"]
+119 verbose parsed url { pathname: '^27.1.0', path: '^27.1.0', href: '^27.1.0' }
+120 verbose addNamed [ 'jest', '^27.1.0' ]
+121 verbose addNamed [ null, null ]
+122 silly lockFile 8c12162a-jest-27-1-0 jest@^27.1.0
+123 verbose lock jest@^27.1.0 /Users/Seonghoon/.npm/8c12162a-jest-27-1-0.lock
+124 verbose cache add [ 'jest-puppeteer@^6.1.0', null ]
+125 verbose cache add name=undefined spec="jest-puppeteer@^6.1.0" args=["jest-puppeteer@^6.1.0",null]
+126 verbose parsed url { pathname: 'jest-puppeteer@^6.1.0',
+126 verbose parsed url   path: 'jest-puppeteer@^6.1.0',
+126 verbose parsed url   href: 'jest-puppeteer@^6.1.0' }
+127 verbose cache add name="jest-puppeteer" spec="^6.1.0" args=["jest-puppeteer","^6.1.0"]
+128 verbose parsed url { pathname: '^6.1.0', path: '^6.1.0', href: '^6.1.0' }
+129 verbose addNamed [ 'jest-puppeteer', '^6.1.0' ]
+130 verbose addNamed [ null, null ]
+131 silly lockFile e4498164-jest-puppeteer-6-1-0 jest-puppeteer@^6.1.0
+132 verbose lock jest-puppeteer@^6.1.0 /Users/Seonghoon/.npm/e4498164-jest-puppeteer-6-1-0.lock
+133 verbose cache add [ 'prettier@^2.3.2', null ]
+134 verbose cache add name=undefined spec="prettier@^2.3.2" args=["prettier@^2.3.2",null]
+135 verbose parsed url { pathname: 'prettier@^2.3.2',
+135 verbose parsed url   path: 'prettier@^2.3.2',
+135 verbose parsed url   href: 'prettier@^2.3.2' }
+136 verbose cache add name="prettier" spec="^2.3.2" args=["prettier","^2.3.2"]
+137 verbose parsed url { pathname: '^2.3.2', path: '^2.3.2', href: '^2.3.2' }
+138 verbose addNamed [ 'prettier', '^2.3.2' ]
+139 verbose addNamed [ null, null ]
+140 silly lockFile 00615fef-prettier-2-3-2 prettier@^2.3.2
+141 verbose lock prettier@^2.3.2 /Users/Seonghoon/.npm/00615fef-prettier-2-3-2.lock
+142 verbose cache add [ 'puppeteer@^9.1.1', null ]
+143 verbose cache add name=undefined spec="puppeteer@^9.1.1" args=["puppeteer@^9.1.1",null]
+144 verbose parsed url { pathname: 'puppeteer@^9.1.1',
+144 verbose parsed url   path: 'puppeteer@^9.1.1',
+144 verbose parsed url   href: 'puppeteer@^9.1.1' }
+145 verbose cache add name="puppeteer" spec="^9.1.1" args=["puppeteer","^9.1.1"]
+146 verbose parsed url { pathname: '^9.1.1', path: '^9.1.1', href: '^9.1.1' }
+147 verbose addNamed [ 'puppeteer', '^9.1.1' ]
+148 verbose addNamed [ null, null ]
+149 silly lockFile 21822a61-puppeteer-9-1-1 puppeteer@^9.1.1
+150 verbose lock puppeteer@^9.1.1 /Users/Seonghoon/.npm/21822a61-puppeteer-9-1-1.lock
+151 verbose cache add [ 'typescript@4.4.2', null ]
+152 verbose cache add name=undefined spec="typescript@4.4.2" args=["typescript@4.4.2",null]
+153 verbose parsed url { pathname: 'typescript@4.4.2',
+153 verbose parsed url   path: 'typescript@4.4.2',
+153 verbose parsed url   href: 'typescript@4.4.2' }
+154 verbose cache add name="typescript" spec="4.4.2" args=["typescript","4.4.2"]
+155 verbose parsed url { pathname: '4.4.2', path: '4.4.2', href: '4.4.2' }
+156 verbose addNamed [ 'typescript', '4.4.2' ]
+157 verbose addNamed [ '4.4.2', '4.4.2' ]
+158 silly lockFile da6aa482-typescript-4-4-2 typescript@4.4.2
+159 verbose lock typescript@4.4.2 /Users/Seonghoon/.npm/da6aa482-typescript-4-4-2.lock
+160 verbose cache add [ 'vite@^2.8.0', null ]
+161 verbose cache add name=undefined spec="vite@^2.8.0" args=["vite@^2.8.0",null]
+162 verbose parsed url { pathname: 'vite@^2.8.0',
+162 verbose parsed url   path: 'vite@^2.8.0',
+162 verbose parsed url   href: 'vite@^2.8.0' }
+163 verbose cache add name="vite" spec="^2.8.0" args=["vite","^2.8.0"]
+164 verbose parsed url { pathname: '^2.8.0', path: '^2.8.0', href: '^2.8.0' }
+165 verbose addNamed [ 'vite', '^2.8.0' ]
+166 verbose addNamed [ null, null ]
+167 silly lockFile 85461676-vite-2-8-0 vite@^2.8.0
+168 verbose lock vite@^2.8.0 /Users/Seonghoon/.npm/85461676-vite-2-8-0.lock
+169 info addNameTag [ 'react-pdf-highlighter', '^5.6.0' ]
+170 info addNameTag [ 'react-rnd', '^10.1.10' ]
+171 info addNameTag [ 'vitejs/plugin-react-refresh', '^1.3.1' ]
+172 info addNameTag [ 'jest', '^27.1.0' ]
+173 info addNameTag [ 'jest-puppeteer', '^6.1.0' ]
+174 info addNameTag [ 'prettier', '^2.3.2' ]
+175 info addNameTag [ 'puppeteer', '^9.1.1' ]
+176 info addNameTag [ 'vite', '^2.8.0' ]
+177 verbose url raw react-pdf-highlighter
+178 verbose url resolving [ 'https://registry.npmjs.org/', './react-pdf-highlighter' ]
+179 verbose url resolved https://registry.npmjs.org/react-pdf-highlighter
+180 info trying registry request attempt 1 at 08:56:49
+181 http GET https://registry.npmjs.org/react-pdf-highlighter
+182 verbose url raw pdfjs-dist/2.16.105
+183 verbose url resolving [ 'https://registry.npmjs.org/', './pdfjs-dist/2.16.105' ]
+184 verbose url resolved https://registry.npmjs.org/pdfjs-dist/2.16.105
+185 info trying registry request attempt 1 at 08:56:49
+186 http GET https://registry.npmjs.org/pdfjs-dist/2.16.105
+187 verbose url raw react-rnd
+188 verbose url resolving [ 'https://registry.npmjs.org/', './react-rnd' ]
+189 verbose url resolved https://registry.npmjs.org/react-rnd
+190 info trying registry request attempt 1 at 08:56:49
+191 http GET https://registry.npmjs.org/react-rnd
+192 verbose url raw vitejs/plugin-react-refresh
+193 verbose url resolving [ 'https://registry.npmjs.org/',
+193 verbose url resolving   './vitejs/plugin-react-refresh' ]
+194 verbose url resolved https://registry.npmjs.org/vitejs/plugin-react-refresh
+195 info trying registry request attempt 1 at 08:56:49
+196 http GET https://registry.npmjs.org/vitejs/plugin-react-refresh
+197 verbose url raw jest
+198 verbose url resolving [ 'https://registry.npmjs.org/', './jest' ]
+199 verbose url resolved https://registry.npmjs.org/jest
+200 info trying registry request attempt 1 at 08:56:49
+201 http GET https://registry.npmjs.org/jest
+202 verbose url raw jest-puppeteer
+203 verbose url resolving [ 'https://registry.npmjs.org/', './jest-puppeteer' ]
+204 verbose url resolved https://registry.npmjs.org/jest-puppeteer
+205 info trying registry request attempt 1 at 08:56:49
+206 http GET https://registry.npmjs.org/jest-puppeteer
+207 verbose url raw prettier
+208 verbose url resolving [ 'https://registry.npmjs.org/', './prettier' ]
+209 verbose url resolved https://registry.npmjs.org/prettier
+210 info trying registry request attempt 1 at 08:56:49
+211 http GET https://registry.npmjs.org/prettier
+212 verbose url raw puppeteer
+213 verbose url resolving [ 'https://registry.npmjs.org/', './puppeteer' ]
+214 verbose url resolved https://registry.npmjs.org/puppeteer
+215 info trying registry request attempt 1 at 08:56:49
+216 http GET https://registry.npmjs.org/puppeteer
+217 verbose url raw typescript/4.4.2
+218 verbose url resolving [ 'https://registry.npmjs.org/', './typescript/4.4.2' ]
+219 verbose url resolved https://registry.npmjs.org/typescript/4.4.2
+220 info trying registry request attempt 1 at 08:56:49
+221 http GET https://registry.npmjs.org/typescript/4.4.2
+222 verbose url raw vite
+223 verbose url resolving [ 'https://registry.npmjs.org/', './vite' ]
+224 verbose url resolved https://registry.npmjs.org/vite
+225 info trying registry request attempt 1 at 08:56:49
+226 http GET https://registry.npmjs.org/vite
+227 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+228 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+229 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+230 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+231 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+232 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+233 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+234 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+235 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+236 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+237 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+238 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+239 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+240 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+241 info trying registry request attempt 2 at 08:56:59
+242 http GET https://registry.npmjs.org/types/lodash.debounce
+243 info trying registry request attempt 2 at 08:56:59
+244 http GET https://registry.npmjs.org/types/react-dom
+245 info trying registry request attempt 2 at 08:56:59
+246 http GET https://registry.npmjs.org/types/react
+247 info trying registry request attempt 2 at 08:56:59
+248 http GET https://registry.npmjs.org/lodash.debounce
+249 info trying registry request attempt 2 at 08:56:59
+250 http GET https://registry.npmjs.org/react-pdf-highlighter
+251 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+252 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+253 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+254 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+255 info trying registry request attempt 2 at 08:56:59
+256 http GET https://registry.npmjs.org/pdfjs-dist/2.16.105
+257 info trying registry request attempt 2 at 08:56:59
+258 http GET https://registry.npmjs.org/react-rnd
+259 info trying registry request attempt 2 at 08:56:59
+260 http GET https://registry.npmjs.org/jest
+261 info trying registry request attempt 2 at 08:56:59
+262 http GET https://registry.npmjs.org/vitejs/plugin-react-refresh
+263 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+264 info trying registry request attempt 2 at 08:56:59
+265 http GET https://registry.npmjs.org/jest-puppeteer
+266 info trying registry request attempt 2 at 08:56:59
+267 http GET https://registry.npmjs.org/prettier
+268 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+269 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+270 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+271 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+272 info trying registry request attempt 2 at 08:56:59
+273 http GET https://registry.npmjs.org/vite
+274 info trying registry request attempt 2 at 08:56:59
+275 http GET https://registry.npmjs.org/puppeteer
+276 info trying registry request attempt 2 at 08:56:59
+277 http GET https://registry.npmjs.org/typescript/4.4.2
+278 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+279 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+280 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+281 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+282 info retry will retry, error on last attempt: Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+283 info trying registry request attempt 3 at 08:57:59
+284 http GET https://registry.npmjs.org/types/react-dom
+285 info trying registry request attempt 3 at 08:57:59
+286 http GET https://registry.npmjs.org/types/lodash.debounce
+287 info trying registry request attempt 3 at 08:57:59
+288 http GET https://registry.npmjs.org/types/react
+289 info trying registry request attempt 3 at 08:57:59
+290 http GET https://registry.npmjs.org/lodash.debounce
+291 info trying registry request attempt 3 at 08:57:59
+292 http GET https://registry.npmjs.org/react-pdf-highlighter
+293 info trying registry request attempt 3 at 08:57:59
+294 http GET https://registry.npmjs.org/jest
+295 info trying registry request attempt 3 at 08:57:59
+296 http GET https://registry.npmjs.org/pdfjs-dist/2.16.105
+297 silly lockFile b1021726-types-react-dom-16-4-0 types/react-dom@^16.4.0
+298 silly lockFile b1021726-types-react-dom-16-4-0 types/react-dom@^16.4.0
+299 silly lockFile 80ceadc8-lodash-debounce-4-0-8 lodash.debounce@^4.0.8
+300 silly lockFile 80ceadc8-lodash-debounce-4-0-8 lodash.debounce@^4.0.8
+301 silly lockFile eae8b253-types-react-16-4-0 types/react@^16.4.0
+302 silly lockFile eae8b253-types-react-16-4-0 types/react@^16.4.0
+303 silly lockFile 492e304c-types-lodash-debounce-4-0-6 types/lodash.debounce@^4.0.6
+304 silly lockFile 492e304c-types-lodash-debounce-4-0-6 types/lodash.debounce@^4.0.6
+305 info trying registry request attempt 3 at 08:57:59
+306 http GET https://registry.npmjs.org/react-rnd
+307 info trying registry request attempt 3 at 08:57:59
+308 http GET https://registry.npmjs.org/vitejs/plugin-react-refresh
+309 error Error: 140704542557760:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+309 error
+309 error     at CleartextStream._puller (tls.js:670:24)
+309 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+309 error     at SecurePair.cycle (tls.js:894:20)
+309 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+309 error     at Socket.ondata (stream.js:38:26)
+309 error     at Socket.EventEmitter.emit (events.js:96:17)
+309 error     at TCP.onread (net.js:397:14)
+310 error If you need help, you may report this log at:
+310 error     <http://github.com/isaacs/npm/issues>
+310 error or email it to:
+310 error     <npm-@googlegroups.com>
+311 error System Darwin 22.5.0
+312 error command "/Users/Seonghoon/.nvm/v0.8.28/bin/node" "/Users/Seonghoon/.nvm/v0.8.28/bin/npm" "install"
+313 error cwd /Users/Seonghoon/Downloads/backup/pdf-highlighter
+314 error node -v v0.8.28
+315 error npm -v 1.2.30
+316 verbose exit [ 1, true ]
