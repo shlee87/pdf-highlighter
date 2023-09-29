@@ -47,7 +47,10 @@ const HighlightPopup = ({
     </div>
   ) : null;
 
-const PRIMARY_PDF_URL = "https://arxiv.org/pdf/2305.08804.pdf";
+// const PRIMARY_PDF_URL = "https://arxiv.org/pdf/2305.08804.pdf";
+const PRIMARY_PDF_URL = "https://assets.openstax.org/oscms-prodcms/media/documents/Economics3e-WEB.pdf?_gl=1*hamd7g*_ga*MTcxNDQ0NTE5OC4xNjk1OTk3NDI4*_ga_T746F8B0QC*MTY5NjAxODE2My4yLjEuMTY5NjAxODE4NC4zOS4wLjA.";
+
+
 const SECONDARY_PDF_URL = "https://arxiv.org/pdf/1604.02480.pdf";
 
 const searchParams = new URLSearchParams(document.location.search);

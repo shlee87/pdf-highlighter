@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Seonghoon/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/Users/Seonghoon/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /Users/Seonghoon/Documents/2023 Summer/venture program/pdf-highlighter/AnnoPDF/package.json
+5 error Error: ENOENT, open '/Users/Seonghoon/Documents/2023 Summer/venture program/pdf-highlighter/AnnoPDF/package.json'
+6 error If you need help, you may report this log at:
+6 error     <http://github.com/isaacs/npm/issues>
+6 error or email it to:
+6 error     <npm-@googlegroups.com>
+7 error System Darwin 22.5.0
+8 error command "/Users/Seonghoon/.nvm/v0.8.28/bin/node" "/Users/Seonghoon/.nvm/v0.8.28/bin/npm" "start"
+9 error cwd /Users/Seonghoon/Documents/2023 Summer/venture program/pdf-highlighter/AnnoPDF
+10 error node -v v0.8.28
+11 error npm -v 1.2.30
+12 error path /Users/Seonghoon/Documents/2023 Summer/venture program/pdf-highlighter/AnnoPDF/package.json
+13 error code ENOENT
+14 error errno 34
+15 verbose exit [ 34, true ]
