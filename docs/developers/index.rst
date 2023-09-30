@@ -1,9 +1,9 @@
 For developers
 =====================
 
-This section documents how to setup a development environment for AnnoPDF
+This section documents how to setup a development environment for openTextbook_Highlighter
 
-Installing AnnoPDF on a local machine
+Installing openTextbook_Highlighter on a local machine
 -------------------------------------
 
 Prerequisites
@@ -17,7 +17,7 @@ You will need:
 Building
 ########
 
-To build AnnoPDF for development:
+To build openTextbook_Highlighter for development:
 
 .. code-block:: sh
 
@@ -32,7 +32,7 @@ You now have a development built.
 
 
 
-Running AnnoPDF
+Running openTextbook_Highlighter
 ---------------------------------------------
 
 
@@ -43,7 +43,7 @@ a browser follow these steps.
 #. go to 'http://localhost:3000/react-pdf-highlighter/'
 
 
-AnnoPDF Architecture
+openTextbook_Highlighter Architecture
 -----------------
 
 The application is built using **React**, a JavaScript library for building user interfaces. The architecture is **component-based**, which promotes reusability and maintainability.
@@ -78,22 +78,22 @@ The application also uses the **LocalStorage Web API** to persist the highlights
 Development Timeline
 -----------------
 
-1. **Research Phase (March 17 - March 30):** During this phase, I conducted research to identify the features that the application would need and formulated a plan on how to implement them.
+1. **Research Phase (May 26 - June 30):** In this stage, I carried out research to understand customer needs, pinpointing the essential features for the app and devising a strategy for their development.
 
-2. **Building Basic Features (March 31 - April 13):**
+2. **Building Basic Features (July 1 - July 31):**
    
    - *External PDF Link Retrieval:* This feature allows the application to fetch and display a PDF using an external link.
    - *Local File Loading:* This feature enables users to upload and view a PDF from their local file system.
 
-3. **Building Annotation Features (April 14 - April 27):**
+3. **Building Annotation Features (August 1 - August 31):**
 
    - *Annotating:* This feature allows users to make annotations on the PDF.
    - *Editing Annotations:* With this feature, users can edit their existing annotations.
    - *Deleting Annotations:* This feature lets users remove any annotations they no longer need.
 
-4. **Building Advanced Features (April 28 - May 11):**
+4. **Building Advanced Features (Sep 1 - Sep 20):**
 
    - *Saving Annotations to Local Storage:* This feature allows the application to save annotations in the local storage for future access.
    - *Search Feature for Annotations:* This feature enables users to search through their annotations.
 
-5. **Debugging and Documentation (May 12 - May 17):** In the final phase, I focused on debugging the application to ensure its smooth operation and writing comprehensive documentation to help users understand how to use the application.
+5. **Debugging and Documentation (Sep 21 - Sep 30):** In the final phase, I focused on debugging the application to ensure its smooth operation and writing comprehensive documentation to help users understand how to use the application.

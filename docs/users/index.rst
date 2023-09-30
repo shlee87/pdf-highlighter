@@ -1,20 +1,20 @@
 For Users
 ==========
 
-This section provides a guide on how to use AnnoPDF.
+This section provides a guide on how to use openTextbook_Highlighter.
 
-Accessing AnnoPDF
+Accessing openTextbook_Highlighter
 -----------------
 
-To set up AnnoPDF on your local machine, please refer to the `installation guide <https://pdf-highlighter.readthedocs.io/en/latest/developers/index.html#installing-annopdf-on-a-local-machine>`_ for detailed instructions.
+To set up openTextbook_Highlighter on your local machine, please refer to the `installation guide <https://pdf-highlighter.readthedocs.io/en/latest/developers/index.html#installing-annopdf-on-a-local-machine>`_ for detailed instructions.
 
-AnnoPDF is now ready for you to explore and enhance your PDF reading and annotation experience!
+openTextbook_Highlighter is now ready for you to explore and enhance your PDF reading and annotation experience!
 
 
 Loading a PDF
 -------------
 
-There are two ways to load a PDF document into AnnoPDF:
+There are two ways to load a PDF document into openTextbook_Highlighter:
 
 1. **By URL:** Enter the URL of the PDF you want to view in the "PDF URL" input field in the sidebar and click the "Load PDF" button.
 

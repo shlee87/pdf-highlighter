@@ -97,7 +97,7 @@ export function Sidebar({
 
 
       <div className="description" style={{ padding: "1rem" }}>
-        <h2 style={{ marginBottom: "1rem" }}>pdf-highlighter</h2>
+        <h2 style={{ marginBottom: "1rem" }}>opentextbook_highlighter</h2>
 
 
 
